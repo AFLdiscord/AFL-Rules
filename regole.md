@@ -2,7 +2,7 @@
 
 - AFL è un forum volutamente non basato su gerarchie, se non per lo stretto indispensabile, e volto al confronto libero e rispettoso (oltre che, ovviamente, al cazzeggio). È obbligatoria la lettura e il rispetto delle [linee guida di Discord](https://discordapp.com/guidelines) e del contenuto dell'intero documento prima della presentazione, ed è consigliato farlo ogni volta che non si è sicuri di essere nel giusto compiendo una certa azione;
 - Per evitare confusioni, è stato stabilito da un AFL di concedere la possibilità di cambiare nickname nel forum solo prima di essere riconosciuti come AFL (forse un giorno cambierà idea eh), e tale nome verrà imposto come nickname;
-- Tutti coloro che desiderano entrare devono obbligatoriamente presentare domanda in #richiesta-di-afl, presentandosi come indicato in [Come presentarsi], entro e non oltre 3 giorni dall'ingresso nel forum. Trascorso tale tempo, verranno kickati coloro che non hanno inviato un'adeguata presentazione.
+- Tutti coloro che desiderano entrare devono obbligatoriamente presentare domanda in **#richiesta-di-afl**, presentandosi come indicato in Come presentarsi, entro e non oltre 3 giorni dall'ingresso nel forum. Trascorso tale tempo, verranno kickati coloro che non hanno inviato un'adeguata presentazione.
 
 ## Come presentarsi
 Indicare almeno queste informazioni:
