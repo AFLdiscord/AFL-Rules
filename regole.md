@@ -22,7 +22,7 @@ Il resto è a discrezione dell'utente.
 ## Atteggiamenti non-AFL
 Verrà ripreso (warn) l'AFL autore di:
 1) spam e contenuto pubblicitario al di fuori dalla sezione apposita (ATTENZIONE: spam≠flood);
-2) violenza verbale nei confronti di un AFL;
+2) violazione della privacy e insulti ad AFL, nonchè tirare in ballo questioni private;
 3) invio di files multimediali nei canali errati (es. memi nel foro);
 4) blasfemia gratuita nei canali di discussione;
 5) scuse per non aver letto tutte le regole scritte in questo canale e le linee guida di Discord (se c'è il tempo per cazzeggiare, c'è anche il tempo per leggere);
@@ -40,6 +40,8 @@ Subirà il ban diretto l'AFL che:
 2) viene colto a utilizzare account multipli sul server.
 
 Il ruolo @Sotto sorveglianza rimane fin quando non passa una settimana, ed è responsabilità dell'AFL segnalare il raggiungimento di almeno una settimana dall'assegnamento del ruolo per poter tornare un membro standard.
+
+***NB***: si precisa che @AFL Moderatore e @AFL M si precludono il diritto di eliminare ogni messaggio ritenuto inadeguato al contesto, dando conto esclusivamente allo staff e non all'autore dei messaggi stessi, che è invece invitato alla rilettura del regolamento.
 
 ## Discussioni
 Ogni discussione per cui varrà la pena inserire un canale dedicato vedrà la nascita di tale canale permanentemente o temporaneamente (a seconda della situazione e, per ovvi motivi organizzativi, a discrezione degli amministratori).
