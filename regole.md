@@ -29,11 +29,11 @@ Verrà ripreso (warn) l'AFL autore di:
 6) flooding.
 
 ### Struttura delle penalità
-1) un'inflazione normale comporta 1 warn;
-2) 3 warn comportano 1 strike;
-3) 1 strike = muted per 45 minuti,
-4) 2 strike = kick ed eventuale riammissione con ruolo @Sotto sorveglianza,
-5) 1 strike + @Sotto sorveglianza = ban.
+- un'inflazione normale comporta 1 warn;
+- 3 warn comportano 1 strike;
+- 1 strike = muted per 45 minuti,
+- 2 strike = kick ed eventuale riammissione con ruolo @Sotto sorveglianza,
+- 1 strike + @Sotto sorveglianza = ban.
 
 Subirà il ban diretto l'AFL che:
 1) esegue un tentativo di raid
