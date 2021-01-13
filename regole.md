@@ -7,9 +7,9 @@
 ## Come presentarsi
 Indicare almeno queste informazioni:
 
-- sesso;
-- età;
-- provenienza (almeno a livello di provincia, si è invece liberi di indicare o meno anche il paese/la città);
+- sesso
+- età
+- provenienza (almeno a livello di provincia, si è invece liberi di indicare o meno anche il paese/la città)
 
 Il resto è a discrezione dell'utente.
 
