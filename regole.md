@@ -13,22 +13,22 @@ Indicare almeno queste informazioni:
 
 Il resto è a discrezione dell'utente.
 
-[Codice morale]:
+## Codice morale
 1) Chiunque entri in questo server e passi l'approvazione sarà un AFL a tutti gli effetti;
 2) Ogni AFL è tenuto a rispettare e far rispettare l'opinione altrui, e a garantire la libertà di parola;
 3) La precedenza di parola deve garantire la precedenza di risposta;
 4) L'età non conta in una discussione, ogni AFL è speciale come un altro.
 
-[Atteggiamenti non-AFL]:
+## Atteggiamenti non-AFL
 Verrà ripreso (warn) l'AFL autore di:
-1.a) spam e contenuto pubblicitario al di fuori dalla sezione apposita (ATTENZIONE: spam≠flood);
-2.a) violenza verbale nei confronti di un AFL;
-3.a) invio di files multimediali nei canali errati (es. memi nel foro);
-4.a) blasfemia gratuita nei canali di discussione;
-5.a) scuse per non aver letto tutte le regole scritte in questo canale e le linee guida di Discord (se c'è il tempo per cazzeggiare, c'è anche il tempo per leggere);
-6.a) flooding.
+1) spam e contenuto pubblicitario al di fuori dalla sezione apposita (ATTENZIONE: spam≠flood);
+2) violenza verbale nei confronti di un AFL;
+3) invio di files multimediali nei canali errati (es. memi nel foro);
+4) blasfemia gratuita nei canali di discussione;
+5) scuse per non aver letto tutte le regole scritte in questo canale e le linee guida di Discord (se c'è il tempo per cazzeggiare, c'è anche il tempo per leggere);
+6) flooding.
 
-Struttura delle penalità:
+### Struttura delle penalità
 1) un'inflazione normale comporta 1 warn;
 2) 3 warn comportano 1 strike;
 3) 1 strike = muted per 45 minuti,
@@ -36,12 +36,12 @@ Struttura delle penalità:
 5) 1 strike + @Sotto sorveglianza = ban.
 
 Subirà il ban diretto l'AFL che:
-1.b) esegue un tentativo di raid
-2.b) viene colto a utilizzare account multipli sul server.
+1) esegue un tentativo di raid
+2) viene colto a utilizzare account multipli sul server.
 
 Il ruolo @Sotto sorveglianza rimane fin quando non passa una settimana, ed è responsabilità dell'AFL segnalare il raggiungimento di almeno una settimana dall'assegnamento del ruolo per poter tornare un membro standard.
 
-[Discussioni]:
+## Discussioni
 Ogni discussione per cui varrà la pena inserire un canale dedicato vedrà la nascita di tale canale permanentemente o temporaneamente (a seconda della situazione e, per ovvi motivi organizzativi, a discrezione degli amministratori).
 
 Qualche indicazione su come discutere:
@@ -53,7 +53,7 @@ Qualche indicazione su come discutere:
 4) ogni argomento che possa effettivamente essere oggetto di discussione è consentito, questo significa che, anche se si tratta di un tema il cui parere può essere condiviso solo da un gruppo molto piccolo di AFL, nulla vieta di introdurre tale discussione;
 cathartyc14/04/2020
 
-[Utilizzo del canale #proposte]:
+## Utilizzo del canale proposte
 Il canale #proposte è pensato per poter dar voce alle proprie idee e contribuire al miglioramento del forum, facendo sbattere di meno la creatività del sottoscritto.
 
 Indicazioni per l'utilizzo del canale:
@@ -69,34 +69,33 @@ Indicazioni per l'utilizzo del canale:
 7) Le proposte devono attenersi al regolamento;
 8) Gli @AFL M hanno diritto di veto su proposte che puntino a modificare l'organizzazione e/o parte amministrativa del server.
 
-|
-[Ruolo @Attivo ]
+## Ruolo @Attivo
 Questo ruolo viene assegnato automaticamente a chiunque dimostri una certa partecipazione al forum, in particolare alle sue aree più importanti.
 L'assegnamento di tale ruolo è affidato al bot @YAGPDB.xyz ed è attualmente impostato come segue:
-1) i canali considerati sono quelli di discussione e quelli specifici;
-2) il conteggio avviene ogni volta che si scrive un messaggio;
-3) l'utente ha tempo 1 settimana dall'ultimo messaggio scritto per scrivere un tot di messaggi (attualmente 100, ma verrà tarato col tempo);
-4) raggiunta tale soglia, verrà assegnato il ruolo @Attivo, il quale durerà 1 settimana, e il suo contatore verrà resettato;
-5) Il ruolo viene prolungato se si raggiunge nuovamente la soglia, altrimenti si perderà il ruolo.
+- I canali considerati sono quelli di discussione e quelli specifici;
+- Il conteggio avviene ogni volta che si scrive un messaggio;
+- L'utente ha tempo 1 settimana dall'ultimo messaggio scritto per scrivere un tot di messaggi (attualmente 100, ma verrà tarato col tempo);
+- Raggiunta tale soglia, verrà assegnato il ruolo @Attivo, il quale durerà 1 settimana, e il suo contatore verrà resettato;
+- Il ruolo viene prolungato se si raggiunge nuovamente la soglia, altrimenti si perderà il ruolo.
 
 NB: questo modello è in fase beta, sono possibili variazioni qualora si verifichino problematiche in merito a tale procedura
 
-[Ruolo @AFL Moderatore]
+## Ruolo @AFL Moderatore
 Si tratta del ruolo che consente di moderare il forum.
 Il ruolo di @AFL Moderatore  sarà limitato al far rispettare le regole (senza porle in discussione, se non in #politica-interna) e ad attuare le proposte che passino la votazione.
 
 Nello specifico, il moderatore potrà:
--cancellare messaggi non adeguati al canale;
--accettare nuovi AFL che abbiano presentato domanda di iscrizione correttamente (NB: non è sufficiente conoscere la persona al di fuori del server per ammetterla);
--attuare, se possibile, le proposte che ottengono un numero sufficiente di voti positivi, assicurandosi che siano compatibili col regolamento, e inserire la proposta negli annunci;
--arricchire le liste to-do, ampliandole e riorganizzandole in modo chiaro.
+- cancellare messaggi non adeguati al canale;
+- accettare nuovi AFL che abbiano presentato domanda di iscrizione correttamente (NB: non è sufficiente conoscere la persona al di fuori del server per ammetterla);
+- attuare, se possibile, le proposte che ottengono un numero sufficiente di voti positivi, assicurandosi che siano compatibili col regolamento, e inserire la proposta negli annunci;
+- arricchire le liste to-do, ampliandole e riorganizzandole in modo chiaro.
 
 Il moderatore non potrà:
--modificare il regolamento;
--aggiungere canali di propria iniziativa;
--aggiungere bot di propria iniziativa;
--violare il regolamento;
--abusare del suo potere, nelle discussioni e/o nelle azioni.
+- modificare il regolamento;
+- aggiungere canali di propria iniziativa;
+- aggiungere bot di propria iniziativa;
+- violare il regolamento;
+- abusare del suo potere, nelle discussioni e/o nelle azioni.
 La violazione di queste regole comporta la rimozione immediata del ruolo a tempo non determinato.
 
 Questo ruolo viene assegnato da un @AFL M su base fiduciaria, e non può essere richiesto attraverso una votazione (questo meccanismo potrà essere rivisto in futuro).
