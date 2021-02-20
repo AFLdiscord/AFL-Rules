@@ -107,4 +107,5 @@ Tutti i progetti pubblici del forum sono reperibili dalla [pagina dell'organizza
 - [Skylake](https://github.com/Skylake-dev)
 - [cathartyc](https://github.com/cathartyc)
 
-Ogni membro del server può contribuire allo sviluppo previa approvazione degli admin. Per quanto riguarda le modalità di contribuzione si rimanda al README dei singoli progetti.
+Ogni membro del server può contribuire allo sviluppo previa approvazione degli admin: gli sviluppatori sono contrassegnati dal ruolo @AFL bot dev.
+Per quanto riguarda le modalità di contribuzione si rimanda al README dei singoli progetti.
