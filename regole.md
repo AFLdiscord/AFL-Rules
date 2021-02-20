@@ -101,3 +101,10 @@ Il moderatore non potrà:
 La violazione di queste regole comporta la rimozione immediata del ruolo a tempo non determinato.
 
 Questo ruolo viene assegnato da un @AFL M su base fiduciaria, e non può essere richiesto attraverso una votazione (questo meccanismo potrà essere rivisto in futuro).
+
+## Progetti del forum
+Tutti i progetti pubblici del forum sono reperibili dalla [pagina dell'organizzazione su GitHub](https://github.com/AFLdiscord), amministrata da:
+- [Skylake](https://github.com/Skylake-dev)
+- [cathartyc](https://github.com/cathartyc)
+
+Ogni membro del server può contribuire allo sviluppo previa approvazione degli admin. Per quanto riguarda le modalità di contribuzione si rimanda al README dei singoli progetti.
