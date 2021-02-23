@@ -38,6 +38,10 @@ Subirà il ban diretto l'AFL che:
 1) esegue un tentativo di raid
 2) viene colto a utilizzare account multipli sul server.
 
+I tempi di validità delle penalità sono i seguenti:
+- i warn vengono **azzerati** dopo 2 giorni dal primo warn ricevuto;
+- gli strike vengono **decrementati** di uno alla volta, a partire da 5 giorni dopo l'ultimo strike ricevuto e ogni 5 giorni tra l'eliminazione di uno strike e l'altro.
+
 Il ruolo @Sotto sorveglianza rimane fin quando non passa una settimana, ed è responsabilità dell'AFL segnalare il raggiungimento di almeno una settimana dall'assegnamento del ruolo per poter tornare un membro standard.
 
 ***NB***: si precisa che @AFL Moderatore e @AFL M si precludono il diritto di eliminare ogni messaggio ritenuto inadeguato al contesto, dando conto esclusivamente allo staff e non all'autore dei messaggi stessi, che è invece invitato alla rilettura del regolamento.
@@ -65,7 +69,7 @@ Indicazioni per l'utilizzo del canale:
 4) Il numero minimo da raggiungere si ottiene attraverso il calcolo seguente:
 `minimoVotiNetti = floor(numAttivi/2) + 1`
 (dove  `floor(numero)` indica il numero naturale ottenuto approssimando per difetto il numero e `numAttivi` il numero di AFL che presentano il ruolo @Attivo  nel forum - leggi paragrafo successivo - );
-5) Ogni proposta che ottiene il minimo numero di voti netti (v. punto 3) verrà applicata nel forum non appena possibile e rimossa dal canale;
+5) Ogni proposta che ottiene il minimo numero di voti netti (v. punto 3) verrà applicata nel forum non appena possibile;
 6) Il tempo di vita di una proposta è di al massimo 2 giorni;
 7) Le proposte devono attenersi al regolamento;
 8) Gli @AFL M hanno diritto di veto su proposte che puntino a modificare l'organizzazione e/o parte amministrativa del server.
