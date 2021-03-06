@@ -28,19 +28,17 @@ Verrà ripreso (warn) l'AFL autore di:
 6) flooding.
 
 ### Struttura delle penalità
-- un'inflazione normale comporta 1 warn;
-- 3 warn comportano 1 strike;
-- 1 strike = muted per 45 minuti,
-- 2 strike = kick ed eventuale riammissione con ruolo @Sotto sorveglianza,
-- 1 strike + @Sotto sorveglianza = ban.
+- prima infrazione: warn
+- seconda infrazione: warn
+- terza infrazione: warn + assegnamento del ruolo @Sotto sorveglianza
+- quarta infrazione: ban dal server
 
-Subirà il ban diretto l'AFL che:
+Inoltre, subirà il ban diretto l'AFL che:
 1) esegue un tentativo di raid
 2) viene colto a utilizzare account multipli sul server.
 
 I tempi di validità delle penalità sono i seguenti:
-- i warn vengono **azzerati** dopo 2 giorni dal primo warn ricevuto;
-- gli strike vengono **decrementati** di uno alla volta, a partire da 5 giorni dopo l'ultimo strike ricevuto e ogni 5 giorni tra l'eliminazione di uno strike e l'altro.
+- i warn vengono **azzerati** dopo 7 giorni dall'ultimo warn ricevuto;
 
 Il ruolo @Sotto sorveglianza rimane fin quando non passa una settimana, ed è responsabilità dell'AFL segnalare il raggiungimento di almeno una settimana dall'assegnamento del ruolo per poter tornare un membro standard.
 
