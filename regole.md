@@ -2,7 +2,7 @@
 
 - AFL è un forum volutamente non basato su gerarchie, se non per lo stretto indispensabile, e volto al confronto libero e rispettoso (oltre che, ovviamente, al cazzeggio). È obbligatoria la lettura e il rispetto delle [linee guida di Discord](https://discordapp.com/guidelines) e del contenuto dell'intero documento prima della presentazione, ed è consigliato farlo ogni volta che non si è sicuri di essere nel giusto compiendo una certa azione;
 - Per evitare confusioni, è stato stabilito da un AFL di concedere la possibilità di cambiare nickname nel forum solo prima di essere riconosciuti come AFL (forse un giorno cambierà idea eh), e tale nome verrà imposto come nickname;
-- Tutti coloro che desiderano entrare devono obbligatoriamente presentare domanda in **#richiesta-di-afl**, presentandosi come indicato in [Come presentarsi](https://github.com/cathartyc/AFL/blob/main/regole.md#come-presentarsi), entro e non oltre 3 giorni dall'ingresso nel forum. Trascorso tale tempo, verranno kickati coloro che non hanno inviato un'adeguata presentazione.
+- Tutti coloro che desiderano entrare devono obbligatoriamente presentare domanda in **#richiesta-di-afl**, presentandosi come indicato in [Come presentarsi](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#come-presentarsi), entro e non oltre 3 giorni dall'ingresso nel forum. Trascorso tale tempo, verranno kickati coloro che non hanno inviato un'adeguata presentazione.
 
 ## Come presentarsi
 Indicare almeno queste informazioni:
@@ -51,10 +51,9 @@ Qualche indicazione su come discutere:
 1) un confronto di idee si fa tra AFL, non tra un AFL e se stesso, quindi va accettata la divergenza di opinioni;
 2) i posti giusti per scrivere messaggi del tipo "io ho fatto", "io sono", "io qui" o "io lì" sono il curriculum vitae, il canale #richiesta-di-afl e il proprio diario segreto, quindi evitare l'abuso di questa struttura;
 3) iniziata una discussione, è considerato bon ton rimanere nel contesto di tale discussione e non iniziarne un altra, questo almeno finché:
--non viene creato un canale apposito;
--non è evidente che la discussione sia conclusa;
-4) ogni argomento che possa effettivamente essere oggetto di discussione è consentito, questo significa che, anche se si tratta di un tema il cui parere può essere condiviso solo da un gruppo molto piccolo di AFL, nulla vieta di introdurre tale discussione;
-cathartyc14/04/2020
+- non viene creato un canale apposito;
+- non è evidente che la discussione sia conclusa;
+4) ogni argomento che possa effettivamente essere oggetto di discussione è consentito, questo significa che, anche se si tratta di un tema il cui parere può essere condiviso solo da un gruppo molto piccolo di AFL, nulla vieta di introdurre tale discussione.
 
 ## Utilizzo del canale proposte
 Il canale #proposte è pensato per poter dar voce alle proprie idee e contribuire al miglioramento del forum, facendo sbattere di meno la creatività del sottoscritto.
@@ -66,22 +65,22 @@ Indicazioni per l'utilizzo del canale:
 3) Il sistema di voto è basato su due reactions: :green_circle:  e  :red_circle: .  Evitare l'utilizzo di reactions diverse da queste, che verranno rimosse, a meno che non siano previste dalla proposta stessa;
 4) Il numero minimo da raggiungere si ottiene attraverso il calcolo seguente:
 `minimoVotiNetti = floor(numAttivi/2) + 1`
-(dove  `floor(numero)` indica il numero naturale ottenuto approssimando per difetto il numero e `numAttivi` il numero di AFL che presentano il ruolo @Attivo  nel forum - leggi paragrafo successivo - );
-5) Ogni proposta che ottiene il minimo numero di voti netti (v. punto 3) verrà applicata nel forum non appena possibile;
+(dove `numAttivi` è il numero di AFL che presentano il [ruolo @Attivo](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#ruolo-attivo) nel forum al momento della proposta). In sintesi, una proposta deve ottenere almeno il voto di metà degli AFL attivi + 1;
+5) Ogni proposta che ottiene il minimo numero di voti netti verrà applicata nel forum non appena possibile;
 6) Il tempo di vita di una proposta è di al massimo 2 giorni;
 7) Le proposte devono attenersi al regolamento;
 8) Gli @AFL M hanno diritto di veto su proposte che puntino a modificare l'organizzazione e/o parte amministrativa del server.
 
 ## Ruolo @Attivo
 Questo ruolo viene assegnato automaticamente a chiunque dimostri una certa partecipazione al forum, in particolare alle sue aree più importanti.
-L'assegnamento di tale ruolo è affidato al bot @YAGPDB.xyz ed è attualmente impostato come segue:
+L'assegnamento di tale ruolo è affidato al bot del server ed è attualmente impostato come segue:
 - I canali considerati sono quelli di discussione e quelli specifici;
 - Il conteggio avviene ogni volta che si scrive un messaggio;
-- L'utente ha tempo 1 settimana dall'ultimo messaggio scritto per scrivere un tot di messaggi (attualmente 100, ma verrà tarato col tempo);
+- L'AFL deve aver mandato 100 messaggi nell'arco di 1 settimana;
 - Raggiunta tale soglia, verrà assegnato il ruolo @Attivo, il quale durerà 1 settimana, e il suo contatore verrà resettato;
 - Il ruolo viene prolungato se si raggiunge nuovamente la soglia, altrimenti si perderà il ruolo.
 
-NB: questo modello è in fase beta, sono possibili variazioni qualora si verifichino problematiche in merito a tale procedura
+***NB***: questo modello è in fase beta.
 
 ## Ruolo @AFL Moderatore
 Si tratta del ruolo che consente di moderare il forum.
