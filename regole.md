@@ -15,15 +15,15 @@ Qui verranno dettagliati i ruoli presenti nel server.
 
 ### 🟦 AFL
 Ruolo conferito a chiunque venga ammesso nel server.
-### 🟨 [dev](https://github.com/AFLdiscord/AFL-Rules/wiki/Progetti-del-forum)
+### 🟨 [dev](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#progetti-del-forum)
 Ruolo conferito a chi lavora sul bot del server.
-### 🟩 [Attivo](https://github.com/AFLdiscord/AFL-Rules/wiki/Ruolo-%F0%9F%9F%A9Attivo)
+### 🟩 [Attivo](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#ruolo-attivo)
 Ruolo conferito automaticamente a chi partecipa attivamente nei canali di discussione del server.
-### 🟩 [AFL Moderatore](https://github.com/AFLdiscord/AFL-Rules/wiki/Ruolo-%F0%9F%9F%A9AFL-Moderatore)
+### 🟩 [AFL Moderatore](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#ruolo-afl-moderatore)
 Ruolo conferito a chi si occupa della moderazione del server.
 ### 🟩 AFL M
 Ruolo di amministrazione del server.
-### 🟧 [Sotto sorveglianza](https://github.com/AFLdiscord/AFL-Rules/wiki/Gestione-infrazioni)
+### 🟧 [Sotto sorveglianza](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#gestione-infrazioni)
 Ruolo conferito automaticamente a chi viene warnato 3 volte nell'arco di una settimana.
 ### 🟥 Bot
 Ruolo riservato ai bot.
@@ -80,7 +80,7 @@ Il canale **#proposte** è pensato per poter dar voce alle proprie idee e contri
 
 Regole del canale:
 
-- Le proposte sono visibili a tutti, ma possono essere fatte e votate solo da membri con il ruolo [🟩**Attivo**](https://github.com/AFLdiscord/AFL-Rules/wiki/Ruolo-%F0%9F%9F%A9Attivo);
+- Le proposte sono visibili a tutti, ma possono essere fatte e votate solo da membri con il ruolo [🟩**Attivo**](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#ruolo-attivo);
 - Il sistema di voto è basato su due reaction: 🟢 e 🔴. Altre reaction, salvo approvazione dei moderatori, non sono ammesse;
 - L'esito di una proposta è valido quando essa consegue la maggioranza assoluta (più della metà degli Attivi ha votato un'opzione);
 - Ogni proposta che ottiene la maggioranza favorevole verrà realizzata non appena possibile;
