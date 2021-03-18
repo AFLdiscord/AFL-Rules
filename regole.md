@@ -1,111 +1,116 @@
-# Regolamento
+# Regolamento di AFL
 
-- AFL è un forum volutamente non basato su gerarchie, se non per lo stretto indispensabile, e volto al confronto libero e rispettoso (oltre che, ovviamente, al cazzeggio). È obbligatoria la lettura e il rispetto delle [linee guida di Discord](https://discordapp.com/guidelines) e del contenuto dell'intero documento prima della presentazione, ed è consigliato farlo ogni volta che non si è sicuri di essere nel giusto compiendo una certa azione;
-- Per evitare confusioni, è stato stabilito da un AFL di concedere la possibilità di cambiare nickname nel forum solo prima di essere riconosciuti come AFL (forse un giorno cambierà idea eh), e tale nome verrà imposto come nickname;
-- Tutti coloro che desiderano entrare devono obbligatoriamente presentare domanda in **#richiesta-di-afl**, presentandosi come indicato in [Come presentarsi](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#come-presentarsi), entro e non oltre 3 giorni dall'ingresso nel forum. Trascorso tale tempo, verranno kickati coloro che non hanno inviato un'adeguata presentazione.
+## Regole di base
+Le regole principali del server sono le seguenti:
+1. Rimani nel topic del canale in cui stai mandando il messaggio;
+2. Non mandare nulla che non rispetti la privacy di un altro AFL;
+3. Mantieni un linguaggio pulito nei canali di discussione;
+4. Non adottare comportamenti atti a creare disordine nel server;
+5. L'ultima parola spetta **sempre** ai moderatori, in qualunque situazione.
 
-## Come presentarsi
-Indicare almeno queste informazioni:
+La lettura delle [linee guida di Discord](https://discordapp.com/guidelines) è invece obbligatoria per chiunque usi Discord. Sono 18 punti molto brevi, non vi prenderà troppo tempo e ne trarranno beneficio tutti i membri del server👍
+***
+## Ruoli
+Qui verranno dettagliati i ruoli presenti nel server.
 
-- sesso
-- età
+### 🟦 AFL
+Ruolo conferito a chiunque venga ammesso nel server.
+### 🟨 [dev](https://github.com/AFLdiscord/AFL-Rules/wiki/Progetti-del-forum)
+Ruolo conferito a chi lavora sul bot del server.
+### 🟩 [Attivo](https://github.com/AFLdiscord/AFL-Rules/wiki/Ruolo-%F0%9F%9F%A9Attivo)
+Ruolo conferito automaticamente a chi partecipa attivamente nei canali di discussione del server.
+### 🟩 [AFL Moderatore](https://github.com/AFLdiscord/AFL-Rules/wiki/Ruolo-%F0%9F%9F%A9AFL-Moderatore)
+Ruolo conferito a chi si occupa della moderazione del server.
+### 🟩 AFL M
+Ruolo di amministrazione del server.
+### 🟧 [Sotto sorveglianza](https://github.com/AFLdiscord/AFL-Rules/wiki/Gestione-infrazioni)
+Ruolo conferito automaticamente a chi viene warnato 3 volte nell'arco di una settimana.
+### 🟥 Bot
+Ruolo riservato ai bot.
+***
+## Ruolo 🟩**Attivo**
+Il ruolo 🟩**Attivo** permette di partecipare alle discussioni su **#politica-interna** e votare le proposte nel canale **#proposte**.<br>L'assegnamento di tale ruolo è affidato al bot del server ed è attualmente impostato come segue:
+- I canali considerati sono i canali di discussione;
+- Si tiene conto di quanti messaggi sono stati mandati, giorno per giorno.
+- Il bot, una volta al giorno, controlla il conteggio dei messaggi mandati da ogni AFL: se tale conteggio è maggiore o uguale a 100, il bot:
+  - resetta il conteggio dei messaggi dell'AFL;
+  - gli assegna il ruolo 🟩**Attivo**;
+  - imposta la data di scadenza del ruolo alla settimana successiva.
+- Se il conteggio è inferiore a 100, vengono resettati i messaggi dello stesso giorno della settimana precedente (se oggi è lunedì, i messaggi annullati saranno quelli del lunedì precedente, e così via).
 
+Il ruolo viene prolungato se vengono scritti altri 100 (o più) messaggi entro una settimana dal ricevimento del ruolo.
 Il resto è a discrezione dell'utente.
+***
+## Ruolo 🟩**AFL Moderatore**
+Il ruolo 🟩**AFL Moderatore** viene assegnato da un 🟩**AFL M** esclusivamente su base fiduciaria: non può essere richiesto attraverso una votazione.
 
-## Codice morale
-1) Chiunque entri in questo server e passi l'approvazione sarà un AFL a tutti gli effetti;
-2) Ogni AFL è tenuto a rispettare e far rispettare l'opinione altrui, e a garantire la libertà di parola;
-3) La precedenza di parola deve garantire la precedenza di risposta;
-4) L'età non conta in una discussione, ogni AFL è speciale come un altro.
-
-## Atteggiamenti non-AFL
-Verrà ripreso (warn) l'AFL autore di:
-1) spam e contenuto pubblicitario al di fuori dalla sezione apposita (ATTENZIONE: spam≠flood);
-2) violazione della privacy e insulti ad AFL, nonchè tirare in ballo questioni private;
-3) invio di files multimediali nei canali errati (es. memi nel foro);
-4) blasfemia gratuita nei canali di discussione;
-5) scuse per non aver letto tutte le regole scritte in questo canale e le linee guida di Discord (se c'è il tempo per cazzeggiare, c'è anche il tempo per leggere);
-6) flooding.
-
-### Struttura delle penalità
-- prima infrazione: warn
-- seconda infrazione: warn
-- terza infrazione: warn + assegnamento del ruolo @Sotto sorveglianza
-- quarta infrazione: ban dal server
-
-Inoltre, subirà il ban diretto l'AFL che:
-1) esegue un tentativo di raid
-2) viene colto a utilizzare account multipli sul server.
-
-I tempi di validità delle penalità sono i seguenti:
-- i warn vengono **azzerati** dopo 7 giorni dall'ultimo warn ricevuto;
-
-Il ruolo @Sotto sorveglianza rimane fin quando non passa una settimana, ed è responsabilità dell'AFL segnalare il raggiungimento di almeno una settimana dall'assegnamento del ruolo per poter tornare un membro standard.
-
-***NB***: si precisa che @AFL Moderatore e @AFL M si precludono il diritto di eliminare ogni messaggio ritenuto inadeguato al contesto, dando conto esclusivamente allo staff e non all'autore dei messaggi stessi, che è invece invitato alla rilettura del regolamento.
-
-## Discussioni
-Ogni discussione per cui varrà la pena inserire un canale dedicato vedrà la nascita di tale canale permanentemente o temporaneamente (a seconda della situazione e, per ovvi motivi organizzativi, a discrezione degli amministratori).
-
-Qualche indicazione su come discutere:
-1) un confronto di idee si fa tra AFL, non tra un AFL e se stesso, quindi va accettata la divergenza di opinioni;
-2) i posti giusti per scrivere messaggi del tipo "io ho fatto", "io sono", "io qui" o "io lì" sono il curriculum vitae, il canale #richiesta-di-afl e il proprio diario segreto, quindi evitare l'abuso di questa struttura;
-3) iniziata una discussione, è considerato bon ton rimanere nel contesto di tale discussione e non iniziarne un altra, questo almeno finché:
-- non viene creato un canale apposito;
-- non è evidente che la discussione sia conclusa;
-4) ogni argomento che possa effettivamente essere oggetto di discussione è consentito, questo significa che, anche se si tratta di un tema il cui parere può essere condiviso solo da un gruppo molto piccolo di AFL, nulla vieta di introdurre tale discussione.
-
-## Utilizzo del canale proposte
-Il canale #proposte è pensato per poter dar voce alle proprie idee e contribuire al miglioramento del forum, facendo sbattere di meno la creatività del sottoscritto.
-
-Indicazioni per l'utilizzo del canale:
-
-1) Il nome del canale autoesplica quello che deve essere il suo unico tipo di contenuto: le proposte si discutono esclusivamente in #politica-interna , non sotto ad esse, ed eventuali messaggi verranno eliminati;
-2) Le proposte sono visibili a tutti, ma possono essere fatte e votate solo da membri con il ruolo @Attivo;
-3) Il sistema di voto è basato su due reactions: :green_circle:  e  :red_circle: .  Evitare l'utilizzo di reactions diverse da queste, che verranno rimosse, a meno che non siano previste dalla proposta stessa;
-4) Il numero minimo da raggiungere si ottiene attraverso il calcolo seguente:
-`minimoVotiNetti = floor(numAttivi/2) + 1`
-(dove `numAttivi` è il numero di AFL che presentano il [ruolo @Attivo](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#ruolo-attivo) nel forum al momento della proposta). In sintesi, una proposta deve ottenere almeno il voto di metà degli AFL attivi + 1;
-5) Ogni proposta che ottiene il minimo numero di voti netti verrà applicata nel forum non appena possibile;
-6) Il tempo di vita di una proposta è di al massimo 2 giorni;
-7) Le proposte devono attenersi al regolamento;
-8) Gli @AFL M hanno diritto di veto su proposte che puntino a modificare l'organizzazione e/o parte amministrativa del server.
-
-## Ruolo @Attivo
-Questo ruolo viene assegnato automaticamente a chiunque dimostri una certa partecipazione al forum, in particolare alle sue aree più importanti.
-L'assegnamento di tale ruolo è affidato al bot del server ed è attualmente impostato come segue:
-- I canali considerati sono quelli di discussione e quelli specifici;
-- Il conteggio avviene ogni volta che si scrive un messaggio;
-- L'AFL deve aver mandato 100 messaggi nell'arco di 1 settimana;
-- Raggiunta tale soglia, verrà assegnato il ruolo @Attivo, il quale durerà 1 settimana, e il suo contatore verrà resettato;
-- Il ruolo viene prolungato se si raggiunge nuovamente la soglia, altrimenti si perderà il ruolo.
-
-***NB***: questo modello è in fase beta.
-
-## Ruolo @AFL Moderatore
-Si tratta del ruolo che consente di moderare il forum.
-Il ruolo di @AFL Moderatore  sarà limitato al far rispettare le regole (senza porle in discussione, se non in #politica-interna) e ad attuare le proposte che passino la votazione.
-
-Nello specifico, il moderatore potrà:
-- cancellare messaggi non adeguati al canale;
-- accettare nuovi AFL che abbiano presentato domanda di iscrizione correttamente (NB: non è sufficiente conoscere la persona al di fuori del server per ammetterla);
-- attuare, se possibile, le proposte che ottengono un numero sufficiente di voti positivi, assicurandosi che siano compatibili col regolamento, e inserire la proposta negli annunci;
+Chi riceve tale ruolo, è autorizzato a:
+- cancellare eventuali messaggi non adeguati;
+- accettare nuovi AFL che abbiano presentato correttamente (e solo in tale caso) la richiesta di iscrizione;
+- controllare che le proposte siano valide e attuare quelle che ottengono un numero sufficiente di voti positivi, mettendone l'annuncio;
 - arricchire le liste to-do, ampliandole e riorganizzandole in modo chiaro.
 
-Il moderatore non potrà:
-- modificare il regolamento;
-- aggiungere canali di propria iniziativa;
+Un 🟩**AFL Moderatore** non può, invece:
+- modificare la struttura del server di propria iniziativa;
 - aggiungere bot di propria iniziativa;
 - violare il regolamento;
-- abusare del suo potere, nelle discussioni e/o nelle azioni.
-La violazione di queste regole comporta la rimozione immediata del ruolo a tempo non determinato.
+- abusare del suo potere, nelle discussioni e/o nei provvedimenti da prendere.
 
-Questo ruolo viene assegnato da un @AFL M su base fiduciaria, e non può essere richiesto attraverso una votazione (questo meccanismo potrà essere rivisto in futuro).
+La violazione di queste regole comporta un provvedimento stabilito da un 🟩**AFL M**, oltre alla perdita del ruolo.
+***
+## Gestione infrazioni
+L'infrazione delle regole viene così gestita:
+- 1a infrazione: warn;
+- 2a infrazione: warn;
+- 3a infrazione: warn + assegnamento del ruolo 🟧**Sotto sorveglianza**;
+- 4a infrazione: ban;
 
+a cui si aggiungono:
+- tentativo di raid: ban immediato;
+- utilizzo di account multipli sul server: ban immediato.
+
+I warn vengono **azzerati** dopo 7 giorni dall'ultimo warn ricevuto, mentre la revoca dei ban è gestita da 🟩**AFL M**.
+
+Il ruolo 🟧**Sotto sorveglianza** dura 1 settimana, e la sua rimozione è effettuata solo previa richiesta.
+
+***NB***: si precisa che 🟩**AFL Moderatore** e 🟩**AFL M** si riservano il diritto di eliminare ogni messaggio ritenuto inadeguato, ed eventualmente assegnare warn.
+***
+## #proposte
+Il canale **#proposte** è pensato per poter dar voce alle proprie idee e contribuire attivamente al miglioramento del forum.
+
+Regole del canale:
+
+- Le proposte sono visibili a tutti, ma possono essere fatte e votate solo da membri con il ruolo [🟩**Attivo**](https://github.com/AFLdiscord/AFL-Rules/wiki/Ruolo-%F0%9F%9F%A9Attivo);
+- Il sistema di voto è basato su due reaction: 🟢 e 🔴. Altre reaction, salvo approvazione dei moderatori, non sono ammesse;
+- L'esito di una proposta è valido quando essa consegue la maggioranza assoluta (più della metà degli Attivi ha votato un'opzione);
+- Ogni proposta che ottiene la maggioranza favorevole verrà realizzata non appena possibile;
+- Una proposta che non ottenga un esito valido (oppure che ottenga un pareggio) entro 2 giorni viene annullata;
+- Gli 🟩**AFL M** hanno diritto di veto su proposte che puntino a modificare la struttura del server.
+***
+## #politica-interna
+Queto canale è pensato per discutere in merito alla struttura del server stesso.
+
+I messaggi mandati sono pubblici e chiunque può vedere le discussioni in tempo reale, ma l'invio di messaggi al suo interno è consentito solo a:
+- moderatori;
+- attivi.
+***
+## Come affrontare un dibattito
+Un **dibattito** consiste nel mettere a confronto le proprie idee con quelle di un'altra persona, mettendo in mostra **fatti** e **conoscenze**, con l'ulteriore tentativo di abbattere eventuali bias cognitivi.
+
+Le basi di un dibattito sensato sono poche:
+- Sii informato su ciò che affermi, disponendo di **prove** qualora necessario, e argomentale adeguatamente.
+- Se vuoi partecipare in ogni caso, devi dichiarare **in anticipo** che le tue sono semplici opinioni.
+- Un dibattito **non è** un litigio: non arrabbiarti se una persona non la pensa come te, specie se è su internet.
+- Se l'altra persona non riesce a controbattere, probabilmente hai vinto. Se dopo la umili, hai perso tu.
+- Se invece hai perso, verifica la correttezza delle affermazioni dell'altra persona ed eventualmente accetta che possa avere ragione lei.
+
+Se avete del tempo libero, vi consigliamo di leggere [questa pagina](https://it.wikipedia.org/wiki/Fallacia): riporta molte delle argomentazioni da evitare in un dibattito di qualità.
+***
 ## Progetti del forum
 Tutti i progetti pubblici del forum sono reperibili dalla [pagina dell'organizzazione su GitHub](https://github.com/AFLdiscord), amministrata da:
 - [Skylake](https://github.com/Skylake-dev)
 - [cathartyc](https://github.com/cathartyc)
 
-Ogni membro del server può contribuire allo sviluppo previa approvazione degli admin: gli sviluppatori sono contrassegnati dal ruolo @AFL bot dev.
-Per quanto riguarda le modalità di contribuzione si rimanda al README dei singoli progetti.
+Ogni membro del server può contribuire allo sviluppo *previa approvazione degli admin*: gli sviluppatori sono contrassegnati dal ruolo 🟨**dev**.
+
+Per quanto riguarda le modalità di contribuzione, si rimanda al README dei singoli progetti.
