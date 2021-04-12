@@ -6,9 +6,13 @@ Le regole principali del server sono le seguenti:
 2. Non mandare nulla che non rispetti la privacy di un altro AFL;
 3. Mantieni un linguaggio pulito nei canali di discussione;
 4. Non adottare comportamenti atti a creare disordine nel server;
-5. L'ultima parola spetta **sempre** ai moderatori, in qualunque situazione.
+5. Non usare termini discriminatori (di natura razzista, sessista, xenofoba, religiosa ecc.) nel server;
+6. Non commettere violenza verbale;
+7. L'ultima parola spetta **sempre** ai moderatori, in qualunque situazione.
 
 La lettura delle [linee guida di Discord](https://discordapp.com/guidelines) è invece obbligatoria per chiunque usi Discord. Sono 18 punti molto brevi, non vi prenderà troppo tempo e ne trarranno beneficio tutti i membri del server👍
+
+Sul canale #anarchia valgono solamente le regole 2, 6, 7 e le linee guida di Discord sopraccitate.
 ***
 ## Ruoli
 Qui verranno dettagliati i ruoli presenti nel server.
