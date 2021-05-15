@@ -1,6 +1,6 @@
 # Introduzione
 
-Benvenuto/a su AFL, un server dedicato a discussioni e dibattiti di ogni genere, al commento di news e ad attività di gruppo (quali giornate di condivisione, cineforum, sessioni di gioco ecc.).
+Benvenuto/a su AFL (AFL Finisce per L), un server dedicato a discussioni e dibattiti di ogni genere, al commento di news e ad attività di gruppo (quali giornate di condivisione, cineforum, sessioni di gioco ecc.).
 
 Il server è di sua natura poco gerarchico: viene riconosciuta la partecipazione attiva (vedi [Ruolo 🟩**Attivo**](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#ruolo-attivo)) ed è presente uno staff di moderazione per mantenere tutto in ordine, ma non vi sono ruoli che facciano la differenza in una discussione, quindi non preoccuparti di esprimere la tua opinione [liberamente](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#come-affrontare-un-dibattito).
 
