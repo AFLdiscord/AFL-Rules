@@ -4,7 +4,8 @@ Benvenuto/a su AFL (AFL Finisce per L), un server dedicato a discussioni e dibat
 
 Il server è di sua natura poco gerarchico: viene riconosciuta la partecipazione attiva (vedi [Ruolo 🟩**Attivo**](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#ruolo-attivo)) ed è presente uno staff di moderazione per mantenere tutto in ordine, ma non vi sono ruoli che facciano la differenza in una discussione, quindi non preoccuparti di esprimere la tua opinione [liberamente](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#come-affrontare-un-dibattito).
 
-Inoltre, per evitare di fare troppa confusione, abbiamo limitato la possibilità di cambiare nickname nel server: attualmente, è possibile modificarlo una volta sola ogni 30 giorni, a partire dall'ultima modifica (o dall'ingresso nel server), usando il comando `<setnick`.
+Inoltre, per evitare di fare troppa confusione, abbiamo limitato la possibilità di cambiare nickname nel server: attualmente, è possibile modificarlo una volta sola ogni 30 giorni, a partire dall'ultima modifica (o dall'ingresso nel server), usando il comando `<setnick`.  
+NOTA: il nickname non può contenere parola vietate o termini che indichino l'appartenza allo staff (mod o simili)
 
 Buona permanenza👍
 
