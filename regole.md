@@ -2,7 +2,7 @@
 
 Benvenuto/a su AFL (AFL Finisce per L), un server dedicato a discussioni e dibattiti di ogni genere, al commento di news e ad attività di gruppo (quali giornate di condivisione, cineforum, sessioni di gioco ecc.).
 
-Il server è di sua natura poco gerarchico: viene riconosciuta la partecipazione attiva (vedi [Ruolo 🟩**Attivo**](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#ruolo-attivo)) ed è presente uno staff di moderazione per mantenere tutto in ordine, ma non vi sono ruoli che facciano la differenza in una discussione, quindi non preoccuparti di esprimere la tua opinione [liberamente](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#come-affrontare-un-dibattito).
+Il server è di sua natura poco gerarchico: viene riconosciuta la partecipazione attiva (vedi [Ruolo 🟩**Oratore**](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#ruolo-oratore) e [Ruolo 🟪**Cazzaro**](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#ruolo-cazzaro)) ed è presente uno staff di moderazione per mantenere tutto in ordine, ma non vi sono ruoli che facciano la differenza in una discussione, quindi non preoccuparti di esprimere la tua opinione [liberamente](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#come-affrontare-un-dibattito).
 
 Inoltre, per evitare di fare troppa confusione, abbiamo limitato la possibilità di cambiare nickname nel server: attualmente, è possibile modificarlo una volta sola ogni 30 giorni, a partire dall'ultima modifica (o dall'ammissione ad AFL), dalle impostazioni di Discord o usando il comando `<setnick`.  
 NOTA: il nickname non può contenere:
@@ -33,7 +33,9 @@ Qui verranno dettagliati i ruoli presenti nel server.
 Ruolo conferito a chiunque venga ammesso nel server.
 ### 🟨 [dev](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#progetti-del-forum)
 Ruolo conferito a chi lavora sul bot del server.
-### 🟩 [Attivo](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#ruolo-attivo)
+### 🟪 [Cazzaro](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#ruolo-cazzaro)
+Ruolo conferito automaticamente a chi partecipa attivamente nei canali extra.
+### 🟩 [Oratore](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#ruolo-oratore)
 Ruolo conferito automaticamente a chi partecipa attivamente nei canali di discussione del server.
 ### 🟩 [AFL Moderatore](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#ruolo-afl-moderatore)
 Ruolo conferito a chi si occupa della moderazione del server.
@@ -44,13 +46,34 @@ Ruolo conferito automaticamente a chi viene warnato 3 volte nell'arco di una set
 ### 🟥 Bot
 Ruolo riservato ai bot.
 ***
-## Ruolo 🟩**Attivo**
-Il ruolo 🟩**Attivo** permette di partecipare alle discussioni su **#politica-interna** e votare le proposte nel canale **#proposte**.<br>L'assegnamento di tale ruolo è affidato al bot del server ed è attualmente impostato come segue:
+## Ruolo 🟪**Cazzaro**
+Il ruolo 🟪**Cazzaro** indica una continuata attività nei canali extra.<br>L'assegnamento di tale ruolo è affidato al bot del server ed è attualmente impostato come segue:
+- Ogni messaggio incrementa un contatore buffer;
+- Si tiene conto della data e ora (timestamp) del primo messaggio inviato in uno dei canali della categoria extra;
+- Ad ogni messaggio successivo, il bot effettua la seguente procedura:
+  - se dal timestamp al momento del messaggio è passato almeno il tempo indicato nel campo `dank_time_window` del file di configurazione, il buffer ed il timestamp vengono resettati;
+  - altrimenti, incrementa il contatore.
+- Dopo aver incrementato il contatore, il bot legge il valore del contatore buffer e, se la soglia è stata raggiunta:
+  - assegna il ruolo Cazzaro all'afler;
+  - azzera il contatore;
+  - ripristina il timestamp.
+
+Il ruolo viene prolungato e rimosso allo stesso modo del ruolo 🟩**Oratore**, e le soglie sono indipendenti. La configurazione attuale prevede:
+- Messaggi da inviare: 100
+- Finestra di tempo: 7 giorni
+- Durata del ruolo: 7 giorni
+
+Il ruolo attualmente ha solo scopo estetico e - al contrario del ruolo 🟩**Oratore** - non consente di ottenere alcun privilegio aggiuntivo.
+
+A parte il colore viola.
+***
+## Ruolo 🟩**Oratore**
+Il ruolo 🟩**Oratore** permette di partecipare alle discussioni su **#politica-interna** e votare le proposte nel canale **#proposte**.<br>L'assegnamento di tale ruolo è affidato al bot del server ed è attualmente impostato come segue:
 - I canali considerati sono i canali di discussione;
 - Si tiene conto di quanti messaggi sono stati mandati, giorno per giorno.
 - Il bot, una volta al giorno, controlla il conteggio dei messaggi mandati da ogni AFL: se tale conteggio è maggiore o uguale a 100, il bot:
   - resetta il conteggio dei messaggi dell'AFL;
-  - gli assegna il ruolo 🟩**Attivo**;
+  - gli assegna il ruolo 🟩**Oratore**;
   - imposta la data di scadenza del ruolo alla settimana successiva.
 - Se il conteggio è inferiore a 100, vengono resettati i messaggi dello stesso giorno della settimana precedente (se oggi è lunedì, i messaggi annullati saranno quelli del lunedì precedente, e così via).
 
@@ -96,7 +119,7 @@ Il canale **#proposte** è pensato per poter dar voce alle proprie idee e contri
 
 Regole del canale:
 
-- Le proposte sono visibili a tutti, ma possono essere fatte e votate solo da membri con il ruolo [🟩**Attivo**](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#ruolo-attivo);
+- Le proposte sono visibili a tutti, ma possono essere fatte e votate solo da membri con il ruolo [🟩**Oratore**](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#ruolo-oratore);
 - Il sistema di voto è basato su due reaction: 🟢 e 🔴. Altre reaction, salvo approvazione dei moderatori, non sono ammesse;
 - L'esito di una proposta è valido quando essa consegue la maggioranza assoluta (più della metà degli Attivi ha votato un'opzione);
 - Ogni proposta che ottiene la maggioranza favorevole verrà realizzata non appena possibile;
