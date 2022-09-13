@@ -33,10 +33,10 @@ Qui verranno dettagliati i ruoli presenti nel server.
 Ruolo conferito a chiunque venga ammesso nel server.
 ### 🟨 [dev](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#progetti-del-forum)
 Ruolo conferito a chi lavora sul bot del server.
-### 🟪 [Cazzaro](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#ruolo-cazzaro)
-Ruolo conferito automaticamente a chi partecipa attivamente nei canali extra.
 ### 🟩 [Oratore](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#ruolo-oratore)
 Ruolo conferito automaticamente a chi partecipa attivamente nei canali di discussione del server.
+### 🟪 [Cazzaro](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#ruolo-cazzaro)
+Ruolo conferito automaticamente a chi partecipa attivamente nei canali extra.
 ### 🟩 [AFL Moderatore](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#ruolo-afl-moderatore)
 Ruolo conferito a chi si occupa della moderazione del server.
 ### 🟩 AFL M
@@ -45,6 +45,19 @@ Ruolo di amministrazione del server.
 Ruolo conferito automaticamente a chi viene warnato 3 volte nell'arco di una settimana.
 ### 🟥 Bot
 Ruolo riservato ai bot.
+***
+## Ruolo 🟩**Oratore**
+Il ruolo 🟩**Oratore** permette di partecipare alle discussioni su **#politica-interna** e votare le proposte nel canale **#proposte**.<br>L'assegnamento di tale ruolo è affidato al bot del server ed è attualmente impostato come segue:
+- I canali considerati sono i canali di discussione;
+- Si tiene conto di quanti messaggi sono stati mandati, giorno per giorno.
+- Il bot, una volta al giorno, controlla il conteggio dei messaggi mandati da ogni AFL: se tale conteggio è maggiore o uguale a 100, il bot:
+  - resetta il conteggio dei messaggi dell'AFL;
+  - gli assegna il ruolo 🟩**Oratore**;
+  - imposta la data di scadenza del ruolo alla settimana successiva.
+- Se il conteggio è inferiore a 100, vengono resettati i messaggi dello stesso giorno della settimana precedente (se oggi è lunedì, i messaggi annullati saranno quelli del lunedì precedente, e così via).
+
+Il ruolo viene prolungato se vengono scritti altri 100 (o più) messaggi entro una settimana dal ricevimento del ruolo.
+Il resto è a discrezione dell'utente.
 ***
 ## Ruolo 🟪**Cazzaro**
 Il ruolo 🟪**Cazzaro** indica una continuata attività nei canali extra.<br>L'assegnamento di tale ruolo è affidato al bot del server ed è attualmente impostato come segue:
@@ -66,19 +79,6 @@ Il ruolo viene prolungato e rimosso allo stesso modo del ruolo 🟩**Oratore**, 
 Il ruolo attualmente ha solo scopo estetico e - al contrario del ruolo 🟩**Oratore** - non consente di ottenere alcun privilegio aggiuntivo.
 
 A parte il colore viola.
-***
-## Ruolo 🟩**Oratore**
-Il ruolo 🟩**Oratore** permette di partecipare alle discussioni su **#politica-interna** e votare le proposte nel canale **#proposte**.<br>L'assegnamento di tale ruolo è affidato al bot del server ed è attualmente impostato come segue:
-- I canali considerati sono i canali di discussione;
-- Si tiene conto di quanti messaggi sono stati mandati, giorno per giorno.
-- Il bot, una volta al giorno, controlla il conteggio dei messaggi mandati da ogni AFL: se tale conteggio è maggiore o uguale a 100, il bot:
-  - resetta il conteggio dei messaggi dell'AFL;
-  - gli assegna il ruolo 🟩**Oratore**;
-  - imposta la data di scadenza del ruolo alla settimana successiva.
-- Se il conteggio è inferiore a 100, vengono resettati i messaggi dello stesso giorno della settimana precedente (se oggi è lunedì, i messaggi annullati saranno quelli del lunedì precedente, e così via).
-
-Il ruolo viene prolungato se vengono scritti altri 100 (o più) messaggi entro una settimana dal ricevimento del ruolo.
-Il resto è a discrezione dell'utente.
 ***
 ## Ruolo 🟩**AFL Moderatore**
 Il ruolo 🟩**AFL Moderatore** viene assegnato da un 🟩**AFL M** esclusivamente su base fiduciaria: non può essere richiesto attraverso una votazione.
