@@ -86,8 +86,7 @@ Il ruolo 🟩**AFL Moderatore** viene assegnato da un 🟩**AFL M** esclusivamen
 Chi riceve tale ruolo, è autorizzato a:
 - cancellare eventuali messaggi non adeguati;
 - accettare nuovi AFL che abbiano presentato correttamente (e solo in tale caso) la richiesta di iscrizione;
-- controllare che le proposte siano valide e attuare quelle che ottengono un numero sufficiente di voti positivi, mettendone l'annuncio;
-- arricchire le liste to-do, ampliandole e riorganizzandole in modo chiaro.
+- controllare che le proposte siano valide e attuare quelle che ottengono un numero sufficiente di voti positivi, mettendone l'annuncio.
 
 Un 🟩**AFL Moderatore** non può, invece:
 - modificare la struttura del server di propria iniziativa;
