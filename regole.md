@@ -121,7 +121,7 @@ Regole del canale:
 
 - Le proposte sono visibili a tutti, ma possono essere fatte e votate solo da membri con il ruolo [🟩**Oratore**](https://github.com/AFLdiscord/AFL-Rules/blob/main/regole.md#ruolo-oratore);
 - Il sistema di voto è basato su due reaction: 🟢 e 🔴. Altre reaction, salvo approvazione dei moderatori, non sono ammesse;
-- L'esito di una proposta è valido quando essa consegue la maggioranza assoluta (più della metà degli Attivi ha votato un'opzione);
+- L'esito di una proposta è valido quando essa consegue la maggioranza assoluta (più della metà degli oratori ha votato un'opzione);
 - Ogni proposta che ottiene la maggioranza favorevole verrà realizzata non appena possibile;
 - Una proposta che non ottenga un esito valido (oppure che ottenga un pareggio) entro 2 giorni viene annullata;
 - Gli 🟩**AFL M** hanno diritto di veto su proposte che puntino a modificare la struttura del server.
@@ -131,7 +131,7 @@ Queto canale è pensato per discutere in merito alla struttura del server stesso
 
 I messaggi mandati sono pubblici e chiunque può vedere le discussioni in tempo reale, ma l'invio di messaggi al suo interno è consentito solo a:
 - moderatori;
-- attivi.
+- oratori.
 ***
 ## Come affrontare un dibattito
 Un **dibattito** consiste nel mettere a confronto le proprie idee con quelle di un'altra persona, mettendo in mostra **fatti** e **conoscenze**, con l'ulteriore tentativo di abbattere eventuali bias cognitivi.
