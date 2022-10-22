@@ -109,8 +109,6 @@ a cui si aggiungono:
 
 I warn vengono **azzerati** dopo 7 giorni dall'ultimo warn ricevuto, mentre la revoca dei ban è gestita da 🟩**AFL M**.
 
-Il ruolo 🟧**Sotto sorveglianza** dura 1 settimana, e la sua rimozione è effettuata solo previa richiesta.
-
 ***NB***: si precisa che 🟩**AFL Moderatore** e 🟩**AFL M** si riservano il diritto di eliminare ogni messaggio ritenuto inadeguato, ed eventualmente assegnare warn.
 ***
 ## #proposte
