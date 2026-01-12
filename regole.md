@@ -6,7 +6,6 @@ Il server è di sua natura poco gerarchico: viene riconosciuta la partecipazione
 
 Inoltre, per evitare di fare troppa confusione, abbiamo limitato la possibilità di cambiare nickname nel server: attualmente, è possibile modificarlo una volta sola ogni 30 giorni, a partire dall'ultima modifica (o dall'ammissione ad AFL), dalle impostazioni di Discord o usando il comando `<setnick`.  
 NOTA: il nickname non può contenere:
-- parole vietate (blasfemia ecc.);
 - nickname e/o username di altri AFL;
 - termini che indichino l'appartenza allo staff (mod o simili).
 
@@ -16,11 +15,9 @@ Buona permanenza👍
 Le regole principali del server sono le seguenti:
 1. Rimani nel topic del canale in cui stai mandando il messaggio;
 2. Non mandare nulla che non rispetti la privacy di un altro AFL;
-3. Mantieni un linguaggio pulito nei canali di discussione;
-4. Non adottare comportamenti atti a creare disordine nel server;
-5. Non usare termini discriminatori (di natura razzista, sessista, xenofoba, religiosa ecc.) nel server;
-6. Non commettere violenza verbale;
-7. L'ultima parola spetta **sempre** ai moderatori, in qualunque situazione.
+3. Non adottare comportamenti atti a creare disordine nel server;
+4. Non commettere violenza verbale;
+5. L'ultima parola spetta **sempre** ai moderatori, in qualunque situazione.
 
 La lettura delle [linee guida di Discord](https://discordapp.com/guidelines) è invece obbligatoria per chiunque usi Discord. Sono 18 punti molto brevi, non vi prenderà troppo tempo e ne trarranno beneficio tutti i membri del server👍
 
@@ -101,11 +98,12 @@ L'infrazione delle regole viene così gestita:
 - 1a infrazione: warn;
 - 2a infrazione: warn;
 - 3a infrazione: warn + assegnamento del ruolo 🟧**Sotto sorveglianza**;
-- 4a infrazione: ban;
+- 4a infrazione: ban.
 
-a cui si aggiungono:
-- tentativo di raid: ban immediato;
-- utilizzo di account multipli sul server: ban immediato.
+È previsto il ban **immediato** per le seguenti infrazioni:
+- tentativo di raid;
+- utilizzo di account multipli sul server;
+- violenza verbale.
 
 I warn vengono **azzerati** dopo 7 giorni dall'ultimo warn ricevuto, mentre la revoca dei ban è gestita da 🟩**AFL M**.
 
