@@ -21,7 +21,7 @@ Le regole principali del server sono le seguenti:
 
 La lettura delle [linee guida di Discord](https://discordapp.com/guidelines) è invece obbligatoria per chiunque usi Discord. Sono 18 punti molto brevi, non vi prenderà troppo tempo e ne trarranno beneficio tutti i membri del server👍
 
-Sul canale #anarchia valgono solamente le regole 2, 6, 7 e le linee guida di Discord sopraccitate.
+Sul canale #anarchia valgono solamente le regole 2, 4, 5 e le linee guida di Discord sopraccitate.
 ***
 ## Ruoli
 Qui verranno dettagliati i ruoli presenti nel server.
